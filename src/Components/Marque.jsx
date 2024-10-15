@@ -14,7 +14,7 @@ const Integrations = () => {
 
   return (
     <>
-      <h2 className="integrations-heading">Integrations</h2>
+      <h2 className="">Integrations</h2>
 
       <div className="integrations-container">
         <div className="images-row">
