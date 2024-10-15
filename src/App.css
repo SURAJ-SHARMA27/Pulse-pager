@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.company-name {
+  font-size: 2.5rem; /* Adjusted for better visibility on mobile */
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1rem; /* Add padding for mobile */
+}
+
+.section h2 {
+  font-size: 2rem; /* Adjust header size for mobile */
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1rem; /* Base font size */
+  line-height: 1.6; /* Improved readability */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .company-name {
+    font-size: 2rem; /* Smaller font for mobile */
+  }
+
+  .section h2 {
+    font-size: 1.5rem; /* Smaller headers for mobile */
+  }
+
+  .section p {
+    font-size: 0.9rem; /* Smaller paragraph text */
+  }
+
+  #root {
+    padding: 1rem; /* Reduce padding on mobile */
+  }
+
+  .card {
+    padding: 1.5em; /* Adjust card padding for mobile */
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

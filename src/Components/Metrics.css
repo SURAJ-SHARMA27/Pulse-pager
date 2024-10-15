@@ -1,0 +1,35 @@
+.metrics-container {
+    padding: 20px;
+  }
+  
+  .metrics-container h2 {
+    color: #001F3F; /* Navy blue color */
+    text-align: center; /* Center the heading */
+  }
+  
+  .metrics-cards-wrapper {
+    display: flex; /* Align cards in a row */
+    justify-content: space-around; /* Even space between cards */
+    flex-wrap: wrap; /* Allows wrapping to the next line on smaller screens */
+    margin-top: 20px; /* Space above the cards */
+  }
+  
+  .metrics-card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid lightgray; /* Light thin border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 15px; /* Space inside the card */
+    margin: 10px; /* Space between cards */
+    width: calc(30% - 20px); /* Adjust width to fit three cards in a row, accounting for margins */
+    min-width: 250px; /* Minimum width to ensure cards don't get too small */
+  }
+  
+  .metrics-card h3 {
+    color: #3B30C8; /* Color for the metric titles */
+  }
+  
+  .metrics-card p {
+    color: #333; /* Darker color for text */
+  }
+  

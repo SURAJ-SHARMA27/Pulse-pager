@@ -1,0 +1,44 @@
+/* Offerings.css */
+.offerings-container {
+  padding: 20px; /* Space around the offerings section */
+}
+
+.cards-wrapper {
+  display: flex; /* Align cards in a row */
+  justify-content: space-between; /* Even space between cards */
+  flex-wrap: wrap; /* Allows wrapping to the next line on smaller screens */
+}
+
+.card {
+  background-color: #fff; /* White background for cards */
+  border: 1px solid #dcdcdc; /* Light thin border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Space inside the card */
+  margin: 10px; /* Space between cards */
+  width: calc(30% - 20px); /* Adjust width to fit three cards in a row, accounting for margins */
+  min-width: 250px; /* Minimum width to ensure cards don't get too small */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+  text-align: center; /* Center the text inside cards */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+.card-icon {
+  font-size: 60px; /* Increased icon size */
+  color: #3B30C8; /* Color of the icon */
+  margin-bottom: 15px; /* Space between icon and title */
+}
+
+.card h3 {
+  color: #3B30C8; /* Desired color for the title */
+  margin-bottom: 10px; /* Space between title and text */
+}
+
+.card p {
+  color: #555; /* Darker color for text */
+  font-size: 14px; /* Font size for description */
+}

@@ -1,0 +1,24 @@
+/* Integrations.css */
+.integrations-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .integrations-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .images-row {
+    display: flex; /* Use flexbox to arrange images */
+    justify-content: center; /* Center align images */
+    gap: 15px; /* Space between images */
+    margin-bottom: 20px; /* Space between rows */
+  }
+  
+  .integration-logo {
+    width: 80px; /* Fixed width for logos */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+  
