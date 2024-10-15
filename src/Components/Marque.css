@@ -1,24 +1,30 @@
-/* Integrations.css */
 .integrations-container {
-    text-align: center;
-    margin: 20px 0;
+    padding: 20px;
   }
   
   .integrations-heading {
-    font-size: 24px;
-    margin-bottom: 20px;
+    color: #001F3F; /* Navy blue color */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
   }
   
   .images-row {
-    display: flex; /* Use flexbox to arrange images */
-    justify-content: center; /* Center align images */
-    gap: 15px; /* Space between images */
-    margin-bottom: 20px; /* Space between rows */
+    display: flex; /* Align images in a row */
+    justify-content: space-between; /* Even space between images */
+    flex-wrap: wrap; /* Allows wrapping to the next line on smaller screens */
+    margin: 10px 0; /* Space above and below each row */
   }
   
   .integration-logo {
-    width: 80px; /* Fixed width for logos */
+    margin: 5px; /* Space between logos */
+    max-width: calc(100% / 6 - 10px); /* Allow 6 images per row on larger screens */
     height: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Maintain aspect ratio */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .integration-logo {
+      max-width: calc(100% / 3 - 10px); /* Allow 3 images per row on mobile */
+    }
   }
   

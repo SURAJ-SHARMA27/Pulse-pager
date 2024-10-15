@@ -8,6 +8,7 @@ const Integrations = () => {
       src={`./img${index + 1}.png`} 
       alt={`Integration ${index + 1}`} 
       className="integration-logo" 
+      style={{height:"55px"}}
     />
   ));
 
